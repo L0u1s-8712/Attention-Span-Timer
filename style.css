@@ -62,4 +62,21 @@ button {
 }
 img{
   width:10%;
+  position:relative;
+}
+#popupsection {
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  width:90%;
+  height:40%;
+  top:70%;
+  left:50%;
+  margin-left: -45%;
+  margin-top: -30%;
+  display:none;
+  border-radius: 30px;
+
+}
+a{
+  font-size: 500%;
 }
