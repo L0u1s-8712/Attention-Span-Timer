@@ -19,11 +19,8 @@ window.onload = function () {
        clearInterval(Interval);
        TextToChange.textContent = ("You lasted for a time of " + seconds + " seconds, well done!");
        let popupsection = document.getElementById("popupsection");
-       if (popupsection.style.display === "none") {
-        document.getElementById("popupsection").style.display = "block";
-       } else {
-        document.getElementById("popupsection").style.display = "none";
-       }
+       document.getElementById("popupsection").style.display = "block";
+
 
   }
   
@@ -34,6 +31,8 @@ window.onload = function () {
       seconds = "00";
     appendTens.innerHTML = tens;
       appendSeconds.innerHTML = seconds;
+    let popupsection = document.getElementById("popupsection");
+    document.getElementById("popupsection").style.display = "none";
   }
   
    
